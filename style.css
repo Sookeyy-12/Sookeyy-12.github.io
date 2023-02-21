@@ -26,10 +26,6 @@ nav {
     border: 1px solid green;
 }
 
-nav ul {
-    border: 1px blue solid;
-}
-
 nav ul li {
     display: inline-block;
     border: 1px solid yellow;
