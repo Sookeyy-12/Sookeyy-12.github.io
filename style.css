@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    background-color: grey;
+    z-index: 1;
+    width: 100%;
+}
+
+h1 {
+    border: 1px blue solid;
+}
+
+nav {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+nav ul {
+    border: 1px blue solid;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid yellow;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
