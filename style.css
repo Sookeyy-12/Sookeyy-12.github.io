@@ -1,34 +1,40 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
 }
 
-html {
+html, body {
+    font-family: monospace;
+    background-color: black;
     font-size: 16px;
 }
 
 header {
     position: fixed;
-    background-color: grey;
+    background-color: rgb(29, 29, 29);
     z-index: 1;
     width: 100%;
 }
 
-h1 {
-    border: 1px blue solid;
+#logo {
+    color: red;
+    font-size: 2rem;
+    padding: 0 1rem;
 }
 
 nav {
+    position: static;
+    margin: 0.5rem;
     padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid green;
 }
 
 nav ul li {
+    color: orange;
     display: inline-block;
-    border: 1px solid yellow;
     justify-content: space-between;
     padding: 0 5rem;
+    flex-shrink: 1;
 }
