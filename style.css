@@ -4,37 +4,48 @@
 }
 
 html, body {
+    background-color: #004346;
     font-family: monospace;
-    background-color: black;
     font-size: 16px;
 }
 
-header {
-    position: fixed;
-    background-color: rgb(29, 29, 29);
-    z-index: 1;
-    width: 100%;
+#logo, #contact {
+    color: #172A3A;
+    font-size: 2rem;
 }
 
-#logo {
-    color: red;
-    font-size: 2rem;
-    padding: 0 1rem;
+header {
+    width: 100%;
+    background-color: #75DDDD;
+    position: fixed;
 }
 
 nav {
-    position: static;
-    margin: 0.5rem;
     padding: 0 1rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 nav ul li {
-    color: orange;
-    display: inline-block;
-    justify-content: space-between;
-    padding: 0 5rem;
-    flex-shrink: 1;
+    list-style: none;
+    margin: auto 0;
+}
+
+.maincontent {
+    padding: 5rem 5rem;
+    display: block;
+}
+
+.card {
+    margin: 3rem 0;
+    padding: 2rem 2rem;
+    background-color: #09BC8A;
+    width: 70%;
+    border-radius: 0.5rem;
 }
