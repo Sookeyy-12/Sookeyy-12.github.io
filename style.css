@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'BetterGrade';
+    src: url(./fonts/BetterGrade-519DV.ttf);
+}
+@font-face {
+    font-family: 'Gilmer';
+    src: url(./fonts/Gilmer-Light.otf);
+}
+@font-face {
+    font-family: 'Java';
+    src: url(./fonts/JavaHangoutDemoRegular-BF63eafac23df57.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +18,7 @@
 }
 
 html, body {
-    font-family: monospace;
+    font-family: 'Gilmer';
     font-size: 12px;
     background-color: #0d012d;
 }
@@ -27,6 +40,7 @@ nav {
     justify-content: center;
     background-color: #0d0120;
     border-radius: 2.5rem;
+    box-shadow: 0 0 0.5rem #007EA7;
 }
 
 #nav-span {
@@ -56,8 +70,9 @@ nav {
 
 main {
     display: flex;
-    margin: 2rem;
-    padding: 2rem;
+    flex-direction: column;
+    margin: 0 2rem;
+    padding: 0 2rem;
 }
 
 main .intro h1{
@@ -69,7 +84,9 @@ main .intro p {
     font-size: 1.5rem;
 }
 
-main .intro h1 span {
+#name{
+    font-size: 6rem;
+    font-family: 'BetterGrade';
     background-size: 200%;
     background-image: linear-gradient(
         45deg,
@@ -87,4 +104,27 @@ main .intro h1 span {
     to {
         background-position: -200%;
     }
+}
+
+.intro {
+    padding: 2rem;
+    border: 2px solid;
+    border-image: linear-gradient(
+        45deg,
+        #007EA7, #9F87AF, #007EA7
+    ) 1;
+    max-width: 85%;
+}
+
+main .card {
+    margin: 1rem;
+    border: 2px solid;
+    border-image: linear-gradient(
+        45deg,
+        #007EA7, #9F87AF, #007EA7
+    ) 1;
+    display: flex;
+    height: 95vh;
+    justify-content: space-around;
+    align-items: center;
 }
