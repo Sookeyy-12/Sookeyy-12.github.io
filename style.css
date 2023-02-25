@@ -7,8 +7,8 @@
     src: url(./fonts/Gilmer-Light.otf);
 }
 @font-face {
-    font-family: 'Java';
-    src: url(./fonts/JavaHangoutDemoRegular-BF63eafac23df57.ttf);
+    font-family: 'Vary';
+    src: url(./fonts/Vary-Light.otf);
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 html, body {
-    font-family: 'Gilmer';
+    font-family: 'Vary';
     font-size: 12px;
     background-color: #0d012d;
 }
@@ -75,11 +75,11 @@ main {
     padding: 0 2rem;
 }
 
-main .intro h1{
+main .card h1{
     color: white;
     font-size: 4rem;
 }
-main .intro p {
+main .card p {
     color: white;
     font-size: 1.5rem;
 }
@@ -106,7 +106,7 @@ main .intro p {
     }
 }
 
-.intro {
+.intro, .about-section , .socials-section {
     padding: 2rem;
     border: 2px solid;
     border-image: linear-gradient(
@@ -123,8 +123,30 @@ main .card {
         45deg,
         #007EA7, #9F87AF, #007EA7
     ) 1;
-    display: flex;
+    display: inline-flex;
     height: 95vh;
     justify-content: space-around;
     align-items: center;
+}
+
+.card .about-section p {
+    font-size: 1.3rem;
+}
+
+.card .about-section ul {
+    padding-left: 2rem;
+    color: white;
+}
+.card .about-section ul li {
+    list-style-type: disc;
+}
+
+#textfade {
+    opacity: 0.2;
+}
+
+.socials-section a{
+    font-size: 2rem;
+    color: #007EA7;
+    text-decoration: none;
 }
