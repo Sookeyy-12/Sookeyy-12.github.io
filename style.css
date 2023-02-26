@@ -45,7 +45,7 @@ nav {
 
 #nav-span {
     width: 100%;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
     font-size: 2.5rem;
     display: flex;
     justify-content: space-around;
@@ -67,21 +67,58 @@ nav {
     }
 }
 
-
 main {
+    color: white;
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
-    padding: 0 2rem;
 }
 
-main .card h1{
-    color: white;
+main .introcard {
+    margin: 1rem;
+    /*border: 2px solid;
+    border-image: linear-gradient(
+        45deg,
+        #007EA7, #9F87AF, #007EA7
+    ) 1;*/
+    display: inline-flex;
+    min-height: 95vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro h1 {
     font-size: 4rem;
 }
-main .card p {
-    color: white;
+.intro p {
     font-size: 1.5rem;
+    color: #99E2FF;
+}
+
+.card {
+    /*border: 1px solid white;*/
+    height: 100vh;
+}
+
+.grid-container {
+    margin: 0.5rem;
+    display: grid;
+    height: 98%;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    /*border: 1px solid white;*/
+    gap: 0.1rem;
+}
+
+.grid-item {
+    /*border: 1px solid white;*/
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+#intro {
+    max-height: 100%;
+    align-self: center;
+    overflow: scroll;
 }
 
 #name{
@@ -96,7 +133,6 @@ main .card p {
     -webkit-text-fill-color: transparent;
     animation: bg-pan 3s linear infinite;
 }
-
 @keyframes bg-pan {
     from {
         background-position: 0%;
@@ -106,47 +142,119 @@ main .card p {
     }
 }
 
-.intro, .about-section , .socials-section {
-    padding: 2rem;
-    border: 2px solid;
-    border-image: linear-gradient(
-        45deg,
-        #007EA7, #9F87AF, #007EA7
-    ) 1;
-    max-width: 85%;
+#aboutme h1, #lists h1, #hobb h1 {
+    font-size: 2.5rem;
+}
+#aboutme p, #hobb p {
+    font-size: 1.5rem;
+    color: #99E2FF
+}
+#inf p {
+    font-size: 1.2rem;
+    color: #99E2FF;
+}
+#lists ul {
+    color: #99E2FF;
+    font-size: 1.1rem;
+}
+#js {
+    opacity: 0.3;
 }
 
-main .card {
-    margin: 1rem;
-    border: 2px solid;
-    border-image: linear-gradient(
-        45deg,
-        #007EA7, #9F87AF, #007EA7
-    ) 1;
-    display: inline-flex;
-    height: 95vh;
-    justify-content: space-around;
+#socials {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.card .about-section p {
+#socials h1, #lin h1 {
+    font-size: 3rem;
+}
+#socials p {
+    font-size: 2rem;
+}
+#socials a:visited, #socials a:link {
+    color: #C2EEFF;
+    transition: color 0.2s ease-in;
+    text-decoration: none;
+}
+#socials ul {
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+#socials #discord:hover {
+    color: #5865F2;
+}
+#socials #github:hover {
+    color: #484141;
+}
+#socials #twitter:hover {
+    color: #00acee;
+}
+#socials #instagram:hover {
+    color: #d62976;
+}
+#socials li:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#smolp {
+    color: #99E2FF;
     font-size: 1.3rem;
 }
 
-.card .about-section ul {
-    padding-left: 2rem;
-    color: white;
+#lin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.card .about-section ul li {
-    list-style-type: disc;
+#lin-span {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.2s ease-in;
+}
+#lin-span:hover {
+    color: #0077b5;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
-#textfade {
-    opacity: 0.2;
+#linkspot {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.socials-section a{
+.spot, .mail{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.spot h1, .mail h1 {
+    font-size: 2.5rem;
+}
+.spot p {
     font-size: 2rem;
-    color: #007EA7;
-    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+.spot p:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #16DB93;
+}
+
+.mail p {
+    font-size: 1.5rem;
+    transition: color 0.2s ease-in;
+}
+.mail p:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #5DD9C1;
 }
