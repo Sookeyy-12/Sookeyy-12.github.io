@@ -174,7 +174,7 @@ main .introcard {
 #socials p {
     font-size: 2rem;
 }
-#socials a:visited, #socials a:link {
+#socials a:visited, #socials a:link, .spot a:visited, .spot a:link, #lin-span a:visited, #lin-span a:link  {
     color: #C2EEFF;
     transition: color 0.2s ease-in;
     text-decoration: none;
@@ -218,7 +218,7 @@ main .introcard {
     align-items: center;
     transition: color 0.2s ease-in;
 }
-#lin-span:hover {
+#lin-span a:hover {
     color: #0077b5;
     transform: scale(1.1);
     transition: 0.5s;
@@ -243,7 +243,7 @@ main .introcard {
     font-size: 2rem;
     transition: color 0.2s ease-in;
 }
-.spot p:hover {
+.spot p:hover, .spot a:hover {
     transform: scale(1.1);
     transition: 0.5s;
     color: #16DB93;
