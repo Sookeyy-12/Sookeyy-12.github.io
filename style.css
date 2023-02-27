@@ -17,13 +17,21 @@
     box-sizing: border-box;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: #99E2FF;
+}
+
 html, body {
     font-family: 'Vary';
     font-size: 12px;
     background-color: #0d012d;
+    scroll-behavior: smooth;
+     overflow-y: hidden;
 }
 
 header {
+    z-index: 100;
     left: 0;
     top: 0;
     padding: 1rem;
@@ -257,4 +265,56 @@ main .introcard {
     transform: scale(1.1);
     transition: 0.5s;
     color: #5DD9C1;
+}
+
+
+.project-container {
+    margin: 0.5rem;
+    display: grid;
+    height: 98%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr;
+}
+.project-item {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectheader {
+    font-size: 1.5rem;
+}
+#footp {
+    font-size: 1.5rem;
+    color: #99E2FF;
+}
+
+.imagebox {
+    padding: 1rem;
+    object-fit: contain;
+}
+.imagebox:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.project-item p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.project-item a:visited, .project-item a:link {
+    font-size: 1.5rem;
+    color: #C2EEFF;
+    transition: color 0.2s ease-in;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.project-item a:hover {
+    transform: scale(1.1);
+    color: #484141;
+}
+#projecttitle {
+    justify-content: end;
 }
