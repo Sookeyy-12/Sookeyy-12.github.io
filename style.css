@@ -318,3 +318,23 @@ main .introcard {
 #projecttitle {
     justify-content: end;
 }
+
+#digimgc {
+    background-size: 200%;
+    background-image: linear-gradient(
+        45deg,
+        #8980F5, #CF8BA9, #8980F5
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: digi_pan 3s linear infinite;
+    font-weight: bold;
+}
+@keyframes digi_pan {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: -200%;
+    }
+}
