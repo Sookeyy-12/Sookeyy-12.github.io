@@ -359,6 +359,10 @@ main .introcard {
         width: 100%;
     }
 
+    #linkaboutme, #linksocials {
+        padding-top: 15%;
+    }
+
     .grid-container {
         display: flex;
         flex-flow: column;
