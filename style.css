@@ -29,6 +29,14 @@ html, body {
     scroll-behavior: smooth;
      overflow-y: hidden;
 }
+@keyframes wow {
+    from{
+        background-position: 0%;
+    }
+    to {
+        background-position: -200%;
+    }
+}
 
 header {
     z-index: 100;
@@ -336,5 +344,62 @@ main .introcard {
     }
     to {
         background-position: -200%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .project-container {
+        display: flex;
+        flex-flow: column;
+    }
+
+    #socials #listtext {
+        display: none;
+    }
+
+    #discord i {
+        color: #5865F2;
+    }
+    #instagram i{
+        color: #d62976;
+    }
+    #twitter i{
+        color: #00acee;
+    }
+    #github i{
+        color: #484141;
+    }
+    #linkspot i{
+        color: #16DB93;
+    }
+    #lin-span i, #lin-span h1{
+        color: #0077b5;
+    }
+    #lin-span p{
+        color: #99E2FF;
+        font-size: 1.1rem;
+    }
+    .mail {
+        color: #5DD9C1;
     }
 }
