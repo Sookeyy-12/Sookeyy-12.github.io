@@ -1,3 +1,36 @@
+:root {
+    /* COLOR VARIABLES FOR DARK MODE */
+    --dark-mode-bg: #0d012d;
+    --dark-mode-font: #99E2FF;
+    --dark-mode-header: white;
+    --dark-mode-nav-pan: linear-gradient(
+        45deg,
+        #007EA7, #9F87AF, #007EA7
+    );
+    --dark-mode-nav-bg: #0d0120;
+    --dark-mode-nav-border: #007EA7;
+    --dark-mode-digi-pan: linear-gradient(
+        45deg,
+        #8980F5, #CF8BA9, #8980F5
+    );
+    --dark-mode-socs: #C2EEFF;
+    /* COLOR VARIABLES FOR LIGHT MODE */
+    --light-mode-bg: #E3F6FF;
+    --light-mode-font: #7492e5;
+    --light-mode-header: #5062a9;
+    --light-mode-nav-pan: linear-gradient(
+        45deg,
+        #c089e5, #40bde7, #c089e5
+    );
+    --light-mode-nav-bg: #F0F0FF;
+    --light-mode-nav-border: #013343;
+    --light-mode-digi-pan: linear-gradient(
+        45deg,
+        #4880f9, #fb84df, #4880f9
+    );
+    --light-mode-socs: #80a8ff;
+}
+
 @font-face {
     font-family: 'BetterGrade';
     src: url(./fonts/BetterGrade-519DV.ttf);
@@ -19,13 +52,13 @@
 
 a:link, a:visited {
     text-decoration: none;
-    color: #99E2FF;
+    color: var(--dark-mode-font);
 }
 
 html, body {
     font-family: 'Vary';
     font-size: 12px;
-    background-color: #0d012d;
+    background-color: var(--dark-mode-bg);
     scroll-behavior: smooth;
      overflow-y: hidden;
 }
@@ -54,9 +87,9 @@ nav {
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
-    background-color: #0d0120;
+    background-color: var(--dark-mode-nav-bg);
     border-radius: 2.5rem;
-    box-shadow: 0 0 0.5rem #007EA7;
+    box-shadow: 0 0 0.5rem var(--dark-mode-nav-border);
 }
 
 #nav-span {
@@ -84,9 +117,14 @@ nav {
 }
 
 main {
-    color: white;
     display: flex;
     flex-direction: column;
+}
+main h1 {
+    color: var(--dark-mode-header);
+}
+main p, ul{
+    color: var(--dark-mode-font);
 }
 
 main .introcard {
@@ -107,7 +145,6 @@ main .introcard {
 }
 .intro p {
     font-size: 1.5rem;
-    color: #99E2FF;
 }
 
 .card {
@@ -141,10 +178,7 @@ main .introcard {
     font-size: 6rem;
     font-family: 'BetterGrade';
     background-size: 200%;
-    background-image: linear-gradient(
-        45deg,
-        #007EA7, #9F87AF, #007EA7
-    );
+    background-image: var(--dark-mode-nav-pan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: bg-pan 3s linear infinite;
@@ -163,14 +197,11 @@ main .introcard {
 }
 #aboutme p, #hobb p {
     font-size: 1.5rem;
-    color: #99E2FF
 }
 #inf p {
     font-size: 1.2rem;
-    color: #99E2FF;
 }
 #lists ul {
-    color: #99E2FF;
     font-size: 1.1rem;
 }
 #js {
@@ -189,9 +220,10 @@ main .introcard {
 }
 #socials p {
     font-size: 2rem;
+    line-height: 2rem;
 }
-#socials a:visited, #socials a:link, .spot a:visited, .spot a:link, #lin-span a:visited, #lin-span a:link  {
-    color: #C2EEFF;
+#socials a:visited, #socials a:link, .spot a:visited, .spot a:link/*, #lin-span a:visited, #lin-span a:link */ {
+    color: var(--dark-mode-socs);
     transition: color 0.2s ease-in;
     text-decoration: none;
 }
@@ -218,7 +250,6 @@ main .introcard {
     transition: 0.5s;
 }
 #smolp {
-    color: #99E2FF;
     font-size: 1.3rem;
 }
 
@@ -234,8 +265,8 @@ main .introcard {
     align-items: center;
     transition: color 0.2s ease-in;
 }
-#lin-span a:hover {
-    color: #0077b5;
+#lin-span h1:hover {
+    color: #0077b5 !important;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -296,7 +327,6 @@ main .introcard {
 }
 #footp {
     font-size: 1.5rem;
-    color: #99E2FF;
 }
 
 .imagebox {
@@ -329,10 +359,7 @@ main .introcard {
 
 #digimgc {
     background-size: 200%;
-    background-image: linear-gradient(
-        45deg,
-        #8980F5, #CF8BA9, #8980F5
-    );
+    background-image: var(--dark-mode-digi-pan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: digi_pan 3s linear infinite;
@@ -400,7 +427,6 @@ main .introcard {
         color: #0077b5;
     }
     #lin-span p{
-        color: #99E2FF;
         font-size: 1.1rem;
     }
     .mail {
