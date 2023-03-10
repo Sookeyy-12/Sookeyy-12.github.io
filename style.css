@@ -71,7 +71,8 @@ html, body {
     font-size: 12px;
     background-color: var(--active-bg);
     scroll-behavior: smooth;
-     overflow-y: hidden;
+    overflow-y: hidden;
+    transition: 0.3s ease-in;
 }
 @keyframes wow {
     from{
@@ -101,6 +102,7 @@ nav {
     background-color: var(--active-nav-bg);
     border-radius: 2.5rem;
     box-shadow: 0 0 0.5rem var(--active-nav-border);
+    transition: 0.3s ease-in;
 }
 
 #nav-span {

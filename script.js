@@ -36,7 +36,10 @@ const changeTheme = function() {
         variable.style.setProperty('--active-digi-pan', vs.getPropertyValue('--dark-mode-digi-pan'));
         variable.style.setProperty('--active-socs', vs.getPropertyValue('--dark-mode-socs'));
         flag = 0;
+        logo.innerHTML ="<i class='fa-solid fa-sun' id='theme'></i>";
+        console.log("Dark mode triggered");
     } else {
+        logo.innerHTML = "<i class='fa-solid fa-moon' id='theme'></i>";
         variable.style.setProperty('--active-bg', vs.getPropertyValue('--light-mode-bg'));
         variable.style.setProperty('--active-font', vs.getPropertyValue('--light-mode-font'));
         variable.style.setProperty('--active-header', vs.getPropertyValue('--light-mode-header'));
@@ -46,8 +49,9 @@ const changeTheme = function() {
         variable.style.setProperty('--active-digi-pan', vs.getPropertyValue('--light-mode-digi-pan'));
         variable.style.setProperty('--active-socs', vs.getPropertyValue('--light-mode-socs'));
         flag = 1;
+        console.log("Light mode triggered");
     }
 }
 
-let pallete = document.getElementById('theme');
-pallete.onclick = changeTheme;
+let logo = document.getElementById('theme-logo');
+logo.addEventListener('click', changeTheme);
