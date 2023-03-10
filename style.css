@@ -14,6 +14,7 @@
         #8980F5, #CF8BA9, #8980F5
     );
     --dark-mode-socs: #C2EEFF;
+
     /* COLOR VARIABLES FOR LIGHT MODE */
     --light-mode-bg: #E3F6FF;
     --light-mode-font: #7492e5;
@@ -29,6 +30,16 @@
         #4880f9, #fb84df, #4880f9
     );
     --light-mode-socs: #80a8ff;
+
+    /* ACTIVE VARIABLES */
+    --active-bg: var(--light-mode-bg);
+    --active-font: var(--light-mode-font);
+    --active-header: var(--light-mode-header);
+    --active-nav-pan: var(--light-mode-nav-pan);
+    --active-nav-bg: var(--light-mode-nav-bg);
+    --active-nav-border: var(--light-mode-nav-border);
+    --active-digi-pan: var(--light-mode-digi-pan);
+    --active-socs: var(--light-mode-socs);
 }
 
 @font-face {
@@ -52,13 +63,13 @@
 
 a:link, a:visited {
     text-decoration: none;
-    color: var(--dark-mode-font);
+    color: var(--active-font);
 }
 
 html, body {
     font-family: 'Vary';
     font-size: 12px;
-    background-color: var(--dark-mode-bg);
+    background-color: var(--active-bg);
     scroll-behavior: smooth;
      overflow-y: hidden;
 }
@@ -87,9 +98,9 @@ nav {
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
-    background-color: var(--dark-mode-nav-bg);
+    background-color: var(--active-nav-bg);
     border-radius: 2.5rem;
-    box-shadow: 0 0 0.5rem var(--dark-mode-nav-border);
+    box-shadow: 0 0 0.5rem var(--active-nav-border);
 }
 
 #nav-span {
@@ -121,10 +132,10 @@ main {
     flex-direction: column;
 }
 main h1 {
-    color: var(--dark-mode-header);
+    color: var(--active-header);
 }
 main p, ul{
-    color: var(--dark-mode-font);
+    color: var(--active-font);
 }
 
 main .introcard {
@@ -178,7 +189,7 @@ main .introcard {
     font-size: 6rem;
     font-family: 'BetterGrade';
     background-size: 200%;
-    background-image: var(--dark-mode-nav-pan);
+    background-image: var(--active-nav-pan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: bg-pan 3s linear infinite;
@@ -223,7 +234,7 @@ main .introcard {
     line-height: 2rem;
 }
 #socials a:visited, #socials a:link, .spot a:visited, .spot a:link/*, #lin-span a:visited, #lin-span a:link */ {
-    color: var(--dark-mode-socs);
+    color: var(--active-socs);
     transition: color 0.2s ease-in;
     text-decoration: none;
 }
@@ -359,7 +370,7 @@ main .introcard {
 
 #digimgc {
     background-size: 200%;
-    background-image: var(--dark-mode-digi-pan);
+    background-image: var(--active-digi-pan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: digi_pan 3s linear infinite;
