@@ -21,7 +21,7 @@ const interval = setInterval(() => {
 };
 */
 
-let flag = 1;
+let flag = 0;
 let variable = document.querySelector(':root');
 
 const changeTheme = function() {

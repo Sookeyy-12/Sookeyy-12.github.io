@@ -32,14 +32,14 @@
     --light-mode-socs: #80a8ff;
 
     /* ACTIVE VARIABLES */
-    --active-bg: var(--light-mode-bg);
-    --active-font: var(--light-mode-font);
-    --active-header: var(--light-mode-header);
-    --active-nav-pan: var(--light-mode-nav-pan);
-    --active-nav-bg: var(--light-mode-nav-bg);
-    --active-nav-border: var(--light-mode-nav-border);
-    --active-digi-pan: var(--light-mode-digi-pan);
-    --active-socs: var(--light-mode-socs);
+    --active-bg: var(--dark-mode-bg);
+    --active-font: var(--dark-mode-font);
+    --active-header: var(--dark-mode-header);
+    --active-nav-pan: var(--dark-mode-nav-pan);
+    --active-nav-bg: var(--dark-mode-nav-bg);
+    --active-nav-border: var(--dark-mode-nav-border);
+    --active-digi-pan: var(--dark-mode-digi-pan);
+    --active-socs: var(--dark-mode-socs);
 }
 
 @font-face {
