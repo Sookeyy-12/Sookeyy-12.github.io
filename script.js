@@ -24,9 +24,12 @@ const interval = setInterval(() => {
 let flag = 0;
 let variable = document.querySelector(':root');
 
+let currentTheme = document.getElementById("currentTheme");
+
 const changeTheme = function() {
     let vs = getComputedStyle(variable);
     if (flag === 1) {
+        /*
         variable.style.setProperty('--active-bg', vs.getPropertyValue('--dark-mode-bg'));
         variable.style.setProperty('--active-font', vs.getPropertyValue('--dark-mode-font'));
         variable.style.setProperty('--active-header', vs.getPropertyValue('--dark-mode-header'));
@@ -35,11 +38,13 @@ const changeTheme = function() {
         variable.style.setProperty('--active-nav-border', vs.getPropertyValue('--dark-mode-nav-border'));
         variable.style.setProperty('--active-digi-pan', vs.getPropertyValue('--dark-mode-digi-pan'));
         variable.style.setProperty('--active-socs', vs.getPropertyValue('--dark-mode-socs'));
+        */
+        currentTheme.innerHTML = '<link rel="stylesheet" type="text/css" href="./themes/lightmode.css">';
         flag = 0;
-        logo.innerHTML ="<i class='fa-solid fa-sun' id='theme'></i>";
-        console.log("Dark mode triggered");
+        logo.innerHTML ="<i class='fa-solid fa-moon' id='theme'></i>";
+        console.log("Light mode triggered");
     } else {
-        logo.innerHTML = "<i class='fa-solid fa-moon' id='theme'></i>";
+        /*
         variable.style.setProperty('--active-bg', vs.getPropertyValue('--light-mode-bg'));
         variable.style.setProperty('--active-font', vs.getPropertyValue('--light-mode-font'));
         variable.style.setProperty('--active-header', vs.getPropertyValue('--light-mode-header'));
@@ -48,8 +53,11 @@ const changeTheme = function() {
         variable.style.setProperty('--active-nav-border', vs.getPropertyValue('--light-mode-nav-border'));
         variable.style.setProperty('--active-digi-pan', vs.getPropertyValue('--light-mode-digi-pan'));
         variable.style.setProperty('--active-socs', vs.getPropertyValue('--light-mode-socs'));
+        */
+        currentTheme.innerHTML = '<link rel="stylesheet" type="text/css" href="./themes/darkmode.css">';
         flag = 1;
-        console.log("Light mode triggered");
+        logo.innerHTML = "<i class='fa-solid fa-sun' id='theme'></i>";
+        console.log("Dark mode triggered");
     }
 }
 

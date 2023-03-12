@@ -1,0 +1,38 @@
+a:link, a:visited {
+    color: #7492E5;
+}
+
+html, body {
+    background-color: #E3F6FF;
+}
+
+nav {
+    background-color: #F0F0FF;
+    box-shadow: 0 0 0.5rem #013343;
+}
+
+main h1 {
+    color: #5062A9;
+}
+
+main p, ul {
+    color: #7492E5;
+}
+
+#name {
+    background-image: linear-gradient(
+        45deg,
+        #b755f9, #48d1ff, #b755f9
+    );
+}
+
+#socials a:visited, #socials a:link, .spot a:visited, .spot a:link {
+    color: #80A8FF;
+}
+
+#digimgc {
+    background-image: linear-gradient(
+        45deg,
+        #4880F9, #FB84DF, #4880F9
+    );
+}
