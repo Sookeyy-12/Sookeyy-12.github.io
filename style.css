@@ -187,8 +187,12 @@ main .introcard {
     overflow: scroll;
 }
 
+.intro h1 {
+    line-height: 5rem;
+}
+
 #name{
-    font-size: 6rem;
+    font-size: 7rem;
     font-family: 'BetterGrade';
     background-size: 200%;
     /*background-image: var(--active-nav-pan);*/
