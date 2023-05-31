@@ -26,6 +26,21 @@ main p, ul {
     );
 }
 
+.project-card {
+    background-color: rgba(174, 143, 245, 0.25);
+}
+.project-card:hover {
+    transition: 0.3s ease-in-out;
+    background-color: rgba(154, 244, 201, 0.5);
+}
+.project-card a{
+    color: #415fb2 !important;
+}
+.project-card a:hover {
+    transition: 0.3s !important;
+    color: rgb(228, 77, 242) !important;
+}
+
 #socials a:visited, #socials a:link, .spot a:visited, .spot a:link {
     color: #80A8FF;
 }

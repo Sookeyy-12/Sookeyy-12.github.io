@@ -14,6 +14,8 @@
         #8980F5, #CF8BA9, #8980F5
     );
     --dark-mode-socs: #C2EEFF;
+    --projectcardbg: rgba(255, 255, 255, 0.25);
+    --projectcardhoverbg:rgba(174, 143, 245, 0.5);
 
     /* COLOR VARIABLES FOR LIGHT MODE */
     --light-mode-bg: #E3F6FF;
@@ -30,6 +32,8 @@
         #4880f9, #fb84df, #4880f9
     );
     --light-mode-socs: #80a8ff;
+    --projectcardbg: rgba(174, 143, 245, 0.25);
+    --projectcardhoverbg:rgba(154, 244, 201, 0.5);
 
     /* ACTIVE VARIABLES */
     --active-bg: var(--dark-mode-bg);
@@ -151,6 +155,7 @@ main .introcard {
     min-height: 95vh;
     justify-content: space-around;
     align-items: center;
+    pointer-events: none;
 }
 
 .intro h1 {
@@ -333,10 +338,21 @@ main .introcard {
 }
 .project-item {
     padding: 2rem;
+    padding-bottom: 0;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.project-card a{
+    font-size: 1.2rem !important;
+}
+.project-card {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
 }
 
 .projectheader {
