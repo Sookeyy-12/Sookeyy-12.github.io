@@ -408,6 +408,29 @@ main .introcard {
 }
 
 
+.cursor-shadow {
+    width: 2rem;
+    height: 2rem;
+    z-index: 999;
+    position: fixed;
+    background-color: transparent;
+    pointer-events: none;
+    animation: cursor-shadow 5s infinite;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1rem #00acee,
+                0 0 2rem #00acee,
+                0 0 5rem #00acee;
+}
+@keyframes cursor-shadow {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 @media only screen and (max-width: 600px) {
     html, body {
         scroll-behavior: smooth;
@@ -417,6 +440,10 @@ main .introcard {
 
     nav {
         width: 100%;
+    }
+
+    .cursor-shadow {
+        display: none !important;
     }
 
     #linkaboutme, #linksocials {
@@ -464,28 +491,5 @@ main .introcard {
     }
     .mail {
         color: #5DD9C1;
-    }
-}
-
-.cursor-shadow {
-    width: 2rem;
-    height: 2rem;
-    z-index: 999;
-    position: fixed;
-    background-color: transparent;
-    pointer-events: none;
-    animation: cursor-shadow 5s infinite;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 1rem #00acee,
-                0 0 2rem #00acee,
-                0 0 5rem #00acee;
-}
-@keyframes cursor-shadow {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        filter: hue-rotate(360deg);
     }
 }
