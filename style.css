@@ -100,7 +100,7 @@ header {
 
 nav {
     width: 35%;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: center;
     /*background-color: var(--active-nav-bg);*/
