@@ -75,7 +75,7 @@ html, body {
     font-size: 12px;
     /*background-color: var(--active-bg);*/
     scroll-behavior: smooth;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     transition: 0.3s ease-in;
 }
 @keyframes wow {
@@ -176,12 +176,21 @@ main .introcard {
     height: 98%;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 3fr 1fr;
-    /*border: 1px solid white;*/
+    border: 1px solid white;
+    gap: 0.1rem;
+}
+.grid-container-abt {
+    margin: 0.5rem;
+    display: grid;
+    height: 98%;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: 1px solid white;
     gap: 0.1rem;
 }
 
 .grid-item {
-    /*border: 1px solid white;*/
+    border: 1px solid white;
     border-radius: 2rem;
     padding: 2rem;
 }
@@ -215,10 +224,10 @@ main .introcard {
 }
 
 #aboutme h1, #lists h1, #hobb h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 #aboutme p, #hobb p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #inf p {
     font-size: 1.2rem;
