@@ -12,11 +12,11 @@ nav {
 }
 
 main h1 {
-    color: #5062A9;
+    color: #3b4f9d;
 }
 
 main p, ul {
-    color: #6285e4;
+    color: #335dcf;
 }
 
 #name {
@@ -40,6 +40,19 @@ main p, ul {
     transition: 0.3s !important;
     color: rgb(228, 77, 242) !important;
 }
+
+.holopin-container {
+    background-color: rgba(174, 143, 245, 0.25) ;
+}
+.holopin-container:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgba(154, 244, 201, 0.5);
+}
+.holopin-container a:hover {
+    transition: 0.3s !important;
+    color: rgb(228, 77, 242) !important;
+}
+
 
 #socials a:visited, #socials a:link, .spot a:visited, .spot a:link {
     color: #80A8FF;

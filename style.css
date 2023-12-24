@@ -167,7 +167,7 @@ main .introcard {
 
 .card {
     /*border: 1px solid white;*/
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .grid-container {
@@ -184,7 +184,7 @@ main .introcard {
     display: grid;
     height: 98%;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
+    /* grid-template-rows: 1fr 3fr; */
     /* border: 1px solid white; */
     gap: 0.1rem;
 }
@@ -341,9 +341,9 @@ main .introcard {
 .project-container {
     margin: 0.5rem;
     display: grid;
-    height: 98%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 3fr;
+    /* border: 1px solid white; */
+    padding: 1rem;
 }
 .project-item {
     padding: 2rem;
@@ -362,6 +362,7 @@ main .introcard {
     width: 100%;
     height: 100%;
     border-radius: 2rem;
+    /* border: 1px solid red; */
 }
 
 .projectheader {
@@ -415,7 +416,19 @@ main .introcard {
         background-position: -200%;
     }
 }
+.holopin-container {
+    margin: 10rem;
+    padding: 1rem 1rem;
+    /* border: 1px white solid; */
+    border-radius: 2rem;
+}
 
+.holopin {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .cursor-shadow {
     width: 2rem;

@@ -38,6 +38,18 @@ main p, ul {
     color: rgb(82, 218, 195) !important;
 }
 
+.holopin-container {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.holopin-container:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgba(174, 143, 245, 0.5);
+}
+.holopin-container a:hover {
+    transition: 0.3s !important;
+    color: rgb(82, 218, 195) !important;
+}
+
 #socials a:visited, #socials a:link, .spot a:visited, .spot a:link {
     color: #C2EEFF;
 }
