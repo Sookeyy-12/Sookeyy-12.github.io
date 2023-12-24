@@ -176,7 +176,7 @@ main .introcard {
     height: 98%;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 3fr 1fr;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     gap: 0.1rem;
 }
 .grid-container-abt {
@@ -185,7 +185,7 @@ main .introcard {
     height: 98%;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     gap: 0.1rem;
 }
 
