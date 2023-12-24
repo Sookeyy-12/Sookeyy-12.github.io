@@ -190,7 +190,7 @@ main .introcard {
 }
 
 .grid-item {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 2rem;
     padding: 2rem;
 }
