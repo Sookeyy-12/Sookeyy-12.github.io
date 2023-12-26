@@ -428,6 +428,18 @@ main .introcard {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 0rem 2rem;
+}
+
+.holopin-text {
+    padding: 2rem 3rem;
+    color: white;
+}
+.holopin-text > h1 {
+    font-size: 1.75rem;
+}
+.holopin-text > p {
+    font-size: 1.2rem;
 }
 
 .cursor-shadow {
@@ -475,6 +487,19 @@ main .introcard {
     .grid-container {
         display: flex;
         flex-flow: column;
+    }
+    .grid-container-abt {
+        padding-right: 2rem;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .holopin-container {
+        padding: 1rem;
+        margin: 2rem;
+    }
+    .holopin-text {
+        padding: 1rem;
     }
 
     .card {
