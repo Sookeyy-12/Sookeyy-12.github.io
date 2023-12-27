@@ -194,6 +194,9 @@ main .introcard {
     border-radius: 2rem;
     padding: 2rem;
 }
+.grid-item > ul {
+    padding: 0rem 2rem;
+}
 
 #intro {
     max-height: 100%;
