@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 3fr;
+}
+
+.grid-item {
+    /* border: 1px solid red; */
+    border-left: 1px solid #0a3b56;
+    border-right: 1px solid #0a3b56;
+    height: 85vh;
+    background-color: #011627;
+}
+
+.nav {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 7.5vh;
+    background-color: #19314a;
+}
+
+.footer {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 7.5vh;
+    background-color: #219fd5;
+}
