@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 3fr;
@@ -18,6 +14,35 @@ body {
     border-right: 1px solid #0a3b56;
     height: 85vh;
     background-color: #011627;
+}
+
+.fg-item {
+    /* border: 1px solid red; */
+    aspect-ratio: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fg-item i {
+    color: white;
+    /* border: 1px red solid; */
+    font-size: 4rem;
+}
+
+.fg-item a{
+    display: none;
+}
+
+.sg-item {
+    /* border: 1px solid orange; */
+    height: 100%;
+    color: white;
+    display: none;
+}
+.sg-item:target {
+    display: block;
 }
 
 .nav {
