@@ -1,6 +1,21 @@
+
+@font-face {
+    font-family: 'BetterGrade';
+    src: url(./fonts/BetterGrade-519DV.ttf);
+}
+@font-face {
+    font-family: 'Gilmer';
+    src: url(./fonts/Gilmer-Light.otf);
+}
+@font-face {
+    font-family: 'Vary';
+    src: url(./fonts/Vary-Light.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .grid-container {
@@ -45,6 +60,14 @@
     display: block;
 }
 
+.tg-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
 .nav {
     position: relative;
     /* border: 1px solid red; */
@@ -57,4 +80,61 @@
     /* border: 1px solid red; */
     height: 7.5vh;
     background-color: #219fd5;
+}
+
+#void {
+    color: transparent;
+}
+
+.intro {
+    color: white;
+}
+.intro h1 {
+    font-family: Gilmer;
+    font-size: 4rem;
+    line-height: 3rem;
+}
+.intro p {
+    font-size: 1.25rem;
+    font-family: monospace;
+}
+
+#name{
+    font-size: 8rem;
+    font-family: 'BetterGrade';
+    background-size: 200%;
+    background-image: linear-gradient(
+        45deg,
+        #b755f9, #48d1ff, #b755f9
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bg-pan 3s linear infinite;
+}
+@keyframes bg-pan {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: -200%;
+    }
+}
+
+#brightblue {
+    color: #00bff9;
+}
+#greenstring {
+    color:#6bff81;
+}
+#darkblue {
+    color: #358ef4;
+}
+#parenthesis{
+    color: #d6d700;
+}
+#paleblue {
+    color:#52b6f7;
+}
+#nums {
+    color:#179fd5;
 }
