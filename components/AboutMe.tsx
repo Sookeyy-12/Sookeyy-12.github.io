@@ -24,10 +24,6 @@ export function AboutMe() {
                         <p className="text-neutral-200 mt-4 relative z-20">
                             Currenly looking for Summer Internship Opportunities for 2025.
                         </p>
-                        <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
                     </CardSpotlight>
                     <CardSpotlight colors={[[126, 46, 132], [209, 64, 129]]} className="m-1 h-[25rem]">
                         <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -42,10 +38,6 @@ export function AboutMe() {
                         <p className="text-neutral-200 mt-4 relative z-20">
                             Since then, I have been learning and building cool projects to enhance my skills.
                         </p>
-                        <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
                     </CardSpotlight>
                     <CardSpotlight colors={[[0, 191, 178], [26, 94, 99]]} className="m-1 h-[25rem]">
                         <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -60,11 +52,6 @@ export function AboutMe() {
                         <p className="text-neutral-200 mt-4 relative z-20">
                             Feel free to connect with me on LinkedIn or explore my projects below.
                         </p>
-                        
-                        <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-                        <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
                     </CardSpotlight>
                 </div>
             </div>
@@ -73,19 +60,3 @@ export function AboutMe() {
 }
 
 
-
-export const Icon = ({ className, ...rest }: any) => {
-    return (
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className={className}
-            {...rest}
-        >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
-        </svg>
-    );
-};
