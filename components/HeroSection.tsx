@@ -22,7 +22,7 @@ export function HeroSection() {
                     }}
                     className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                 >
-                    Building Solutions,<br></br>One Line at a Time.<br></br>I am
+                    Passionate about Code.<br></br>Driven by Creativity.<br></br>Hi! I am
                     {" "}
                     <Highlight className="text-black dark:text-white">
                         Suket Kamboj
