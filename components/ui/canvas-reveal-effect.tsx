@@ -131,7 +131,7 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
         uniform float u_dot_size;
         uniform vec2 u_resolution;
         out vec4 fragColor;
-        float PHI = 1.61803398874989484820459;
+        float PHI = 10.61803398874989484820459;
         float random(vec2 xy) {
             return fract(tan(distance(xy * PHI, xy) * 0.5) * xy.x);
         }
