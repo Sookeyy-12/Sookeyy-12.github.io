@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <>
-      <div className="dark">
+      <div className="dark cursor-default">
         <NavBar />
         <div id="hero">
           <HeroSection />
