@@ -19,7 +19,7 @@ export default {
       },
     },
   },
-  pplugins: [
+  plugins: [
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
