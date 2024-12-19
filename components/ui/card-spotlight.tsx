@@ -7,11 +7,15 @@ import { cn } from "@/lib/utils";
 
 export const CardSpotlight = ({
     children,
+    title,
+    content,
     radius = 350,
     color = "#262626",
     className,
     ...props
 }: {
+    title?: React.ReactNode;
+    content?: React.ReactNode;
     radius?: number;
     color?: string;
     children: React.ReactNode;
@@ -55,11 +59,11 @@ export const CardSpotlight = ({
                     backgroundColor: color,
                     maskImage: useMotionTemplate`
             radial-gradient(
-              ${radius}px circle at ${mouseX}px ${mouseY}px,
-              white,
-              transparent 80%
+                ${radius}px circle at ${mouseX}px ${mouseY}px,
+                white,
+                transparent 80%
             )
-          `,
+            `,
                 }}
             >
                 {isHovering && (
@@ -75,6 +79,14 @@ export const CardSpotlight = ({
                 )}
             </motion.div>
             {children}
+            <div className="relative z-20 flex items-center justify-center h-full">
+                <div className="absolute text-center group-hover/spotlight:-translate-y-4 group-hover/spotlight:opacity-0 transition duration-200">
+                    {title}
+                </div>
+                <div className="dark:text-white opacity-0 group-hover/spotlight:opacity-100 relative z-10 text-black mt-4 group-hover/spotlight:text-white group-hover/spotlight:-translate-y-2 transition duration-200">
+                    {content}
+                </div>
+            </div>
 
         </div>
     );
