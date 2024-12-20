@@ -16,19 +16,19 @@ function NavBar({ }: Props) {
             icon: (
                 <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "/#hero",
+            href: "#hero",
         },
         {
             title: "About",
             icon: (<IconUser className='h-full w-full text-neutral-500 dark:text-neutral-300' />),
-            href: "/#aboutme",
+            href: "#aboutme",
         },
         {
             title: "My Work",
             icon: (
                 <IconBriefcase2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#projects",
         },
         {
             title: "GitHub",

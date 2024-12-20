@@ -1,6 +1,7 @@
 import { AboutMe } from "@/components/AboutMe";
 import { HeroSection } from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         </div>
         <div id="aboutme">
           <AboutMe />
+        </div>
+        <div id="projects">
+          <Projects />
         </div>
       </div>
     </>
