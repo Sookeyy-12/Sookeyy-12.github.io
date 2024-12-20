@@ -4,11 +4,13 @@ import { HeroSection } from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import { Projects } from "@/components/Projects";
 import { Socials } from "@/components/Socials";
+import { ScrollProgress } from "@/components/ProgressBar";
 
 export default function Home() {
   return (
     <>
       <div className="dark cursor-default">
+        <ScrollProgress />
         <NavBar />
         <div id="hero">
           <HeroSection />
