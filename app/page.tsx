@@ -1,5 +1,5 @@
 import { AboutMe } from "@/components/AboutMe";
-import Achievements from "@/components/Achievements";
+import { Achievements } from "@/components/Achievements";
 import { HeroSection } from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
 import { Projects } from "@/components/Projects";
@@ -22,7 +22,7 @@ export default function Home() {
           <Projects />
         </div>
         <div id="achievements">
-          {/* <Achievements /> */}
+          <Achievements />
         </div>
         <div id="socials">
           <Socials />
