@@ -5,6 +5,7 @@ import {
     IconUser,
     IconHome,
     IconBriefcase2,
+    IconTrophy,
 } from "@tabler/icons-react";
 
 type Props = {}
@@ -29,6 +30,13 @@ function NavBar({ }: Props) {
                 <IconBriefcase2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "#projects",
+        },
+        {
+            title: "Achievements",
+            icon: (
+                <IconTrophy className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            ),
+            href: "#achievements",
         },
         {
             title: "GitHub",
