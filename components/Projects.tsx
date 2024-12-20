@@ -16,7 +16,7 @@ export const projects = [
     {
         title: "Neural Nitro AI",
         description:
-            "An Autonomous AI Agent trained using Deep Reinforcement Learning in Unity 3D to navigate around a Racetrack faster than you.",
+            "An Autonomous AI Agent trained using Deep Reinforcement Learning in custom build training environment in Unity 3D to navigate around a Racetrack faster than you.",
         github: "https://github.com/sookeyy-12/neuralnitro-ai",
         deploy: "https://sookeyy.itch.io/neuralnitro",
     },
