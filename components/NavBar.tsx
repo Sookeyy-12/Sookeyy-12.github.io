@@ -1,7 +1,7 @@
 import React from 'react';
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-    IconBrandGithub,
+    IconSocial,
     IconUser,
     IconHome,
     IconBriefcase2,
@@ -39,11 +39,11 @@ function NavBar({ }: Props) {
             href: "#achievements",
         },
         {
-            title: "GitHub",
+            title: "Socials",
             icon: (
-                <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconSocial className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#socials",
         },
     ];
     return (

@@ -2,7 +2,8 @@ import { AboutMe } from "@/components/AboutMe";
 import Achievements from "@/components/Achievements";
 import { HeroSection } from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
-import {Projects} from "@/components/Projects";
+import { Projects } from "@/components/Projects";
+import { Socials } from "@/components/Socials";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
         </div>
         <div id="achievements">
           {/* <Achievements /> */}
+        </div>
+        <div id="socials">
+          <Socials />
         </div>
       </div>
     </>
