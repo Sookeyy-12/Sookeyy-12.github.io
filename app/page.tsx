@@ -2,7 +2,7 @@ import { AboutMe } from "@/components/AboutMe";
 import Achievements from "@/components/Achievements";
 import { HeroSection } from "@/components/HeroSection";
 import NavBar from "@/components/NavBar";
-import Projects from "@/components/Projects";
+import {Projects} from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <AboutMe />
         </div>
         <div id="projects">
-          {/* <Projects /> */}
+          <Projects />
         </div>
         <div id="achievements">
           {/* <Achievements /> */}
