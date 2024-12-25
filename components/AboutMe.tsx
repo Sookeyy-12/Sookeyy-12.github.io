@@ -4,7 +4,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 export function AboutMe() {
     return (
         <>
-            <div className="mb-[5rem]">
+            <div className="mb-[5rem] pt-[3rem]">
                 <div className="flex justify-center items-center w-full text-3xl mt-5 font-bold">
                     <h1>A little about ME</h1>
                 </div>
