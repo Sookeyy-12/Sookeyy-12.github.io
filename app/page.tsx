@@ -26,9 +26,9 @@ export default function Home() {
         <div id="techstack">
           <TechStack />
         </div>
-        {/* <div id="achievements">
+        <div id="achievements">
           <Achievements />
-        </div> */}
+        </div>
         <div id="socials">
           <Socials />
         </div>

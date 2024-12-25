@@ -1,29 +1,24 @@
-import { cn } from "@/lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
-import {
-    IconArrowWaveRightUp,
-    IconBoxAlignRightFilled,
-    IconBoxAlignTopLeft,
-    IconClipboardCopy,
-    IconFileBroken,
-    IconSignature,
-    IconTableColumn,
-} from "@tabler/icons-react";
 
 export function Achievements() {
     return (
-        <BentoGrid className="max-w-4xl mx-auto">
-            {items.map((item, i) => (
-                <BentoGridItem
-                    key={i}
-                    title={item.title}
-                    description={item.description}
-                    header={item.header}
-                    className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-                />
-            ))}
-        </BentoGrid>
+        <div className="mt-[6rem]">
+            <div className="flex justify-center items-center w-full text-3xl mb-5 font-bold">
+                <h1>Some extra stuff</h1>
+            </div>
+            <BentoGrid className="max-w-4xl mx-auto">
+                {items.map((item, i) => (
+                    <BentoGridItem
+                        key={i}
+                        title={item.title}
+                        description={item.description}
+                        header={item.header}
+                        className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                    />
+                ))}
+            </BentoGrid>
+        </div>
     );
 }
 const Skeleton = ({ imagePath }: { imagePath: string }) => (
@@ -49,25 +44,25 @@ const items = [
         description: "Conducted classes and events to spread the knowledge of Machine Learning.",
         header: <Skeleton imagePath="/iot.jpeg" />,
     },
-    // {
-    //     title: "The Power of Communication",
-    //     description:
-    //         "Understand the impact of effective communication in our lives.",
-    //     header: <Skeleton imagePath="/iot.jpeg" />,
-    // },
-    // {
-    //     title: "The Pursuit of Knowledge",
-    //     description: "Join the quest for understanding and enlightenment.",
-    //     header: <Skeleton imagePath="/gfg.jpeg" />,
-    // },
-    // {
-    //     title: "The Joy of Creation",
-    //     description: "Experience the thrill of bringing ideas to life.",
-    //     header: <Skeleton imagePath="/gfg.jpeg" />,
-    // },
-    // {
-    //     title: "The Spirit of Adventure",
-    //     description: "Embark on exciting journeys and thrilling discoveries.",
-    //     header: <Skeleton imagePath="/gfg.jpeg" />,
-    // },
+    {
+        title: "LeetCode Stats?",
+        description: "Solved 500+ problems.",
+        header: <Skeleton imagePath="/ach/lc.png" />,
+    },
+    {
+        title: "Specialist on CodeForces",
+        description:
+            "Solved 250+ problems on CodeForces and participated in 30+ contests.",
+        header: <Skeleton imagePath="/ach/cf.png" />,
+    },
+    {
+        title: "Hey There",
+        description: "If you are reading this then it probably means, you are interested in my work. Thanks for stopping by!",
+        header: <Skeleton imagePath="/ach/stop.jpg" />,
+    },
+    {
+        title: "OpenSource cuz its fun",
+        description: "Contributed to Big Open Source Orgs like HuggingFace, DagsHub, illa Cloud and more!",
+        header: <Skeleton imagePath="/ach/holo.png" />,
+    },
 ];
