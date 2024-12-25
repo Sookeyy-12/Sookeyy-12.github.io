@@ -28,7 +28,7 @@ export function AboutMe() {
                                     A 20-year-old wanna-be Software Engineer from India.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    I&aposm passionate about building impactful products through software development.
+                                    I&apos;m passionate about building impactful products through software development.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     Currently looking for Summer Internship Opportunities for 2025.
@@ -50,7 +50,7 @@ export function AboutMe() {
                                     $ whatdoido
                                 </h1>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    I am currently pursuing my Bachelor&aposs of Technology in Computer Science and Engineering from Kalinga Institute of Industrial Technology.
+                                    I am currently pursuing my Bachelor of Technology in Computer Science and Engineering from Kalinga Institute of Industrial Technology.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     My journey into Development began in 2022 when my friend introduced me to the world of code.
@@ -75,7 +75,7 @@ export function AboutMe() {
                                     $ beyondcode
                                 </h1>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    When I&aposm not immersed in code, I enjoy playing guitar, discovering new music, and exploring the outdoors.
+                                    When I&apos;m not immersed in code, I enjoy playing guitar, discovering new music, and exploring the outdoors.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     I value teamwork and am driven by a desire to constantly learn and refine my skills.
