@@ -1,6 +1,5 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight";
 
-
 export function AboutMe() {
     return (
         <>

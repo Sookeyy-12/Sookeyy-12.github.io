@@ -1,6 +1,6 @@
 import { OrbitingCircles } from "@/components/ui/orbiting-circles";
 import { IconBrandCpp, IconBrandCSharp, IconBrandCss3, IconBrandGithubCopilot, IconBrandHtml5, IconBrandJavascript, IconBrandNextjs, IconBrandPython, IconBrandReact, IconBrandTypescript, IconBrandUnity, IconBrandVercel } from "@tabler/icons-react";
-import { FaJava, FaLinux, FaReact } from "react-icons/fa";
+import { FaJava, FaLinux } from "react-icons/fa";
 import { SiGnubash, SiHuggingface, SiPytorch, SiTensorflow } from "react-icons/si";
 
 

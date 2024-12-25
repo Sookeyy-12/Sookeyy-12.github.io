@@ -1,9 +1,7 @@
 import React from 'react';
 import { IconBrandGithub, IconRocket } from '@tabler/icons-react';
 
-type Props = {}
-
-function Footer({ }: Props) {
+function Footer() {
     return (
         <>
             <footer className="footer bg-black tetx-white items-center p-4 border-t border-white">

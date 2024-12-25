@@ -8,9 +8,8 @@ import {
     IconTrophy,
 } from "@tabler/icons-react";
 
-type Props = {}
 
-function NavBar({ }: Props) {
+function NavBar() {
     const links = [
         {
             title: "Home",

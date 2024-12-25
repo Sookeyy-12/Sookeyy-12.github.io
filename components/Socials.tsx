@@ -2,10 +2,8 @@ import React from 'react'
 import { Marquee } from './ui/marquee';
 import { cn } from "@/lib/utils";
 
-type Props = {}
 
-
-export function Socials({ }: Props) {
+export function Socials() {
     return (
         <>
             <div className="flex justify-center items-center w-full text-3xl mt-3 font-bold pt-[3rem]">

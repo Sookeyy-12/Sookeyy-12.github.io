@@ -1,4 +1,3 @@
-import { HoverEffect } from "./ui/card-hover-effect";
 import { IconBrandGithub, IconLink } from "@tabler/icons-react";
 
 export function Projects() {
