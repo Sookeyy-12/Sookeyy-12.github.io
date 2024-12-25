@@ -19,10 +19,10 @@ export default function Home() {
         <div id="aboutme">
           <AboutMe />
         </div>
-        {/* <div id="projects">
+        <div id="projects">
           <Projects />
         </div>
-        <div id="achievements">
+        {/* <div id="achievements">
           <Achievements />
         </div> */}
         <div id="socials">

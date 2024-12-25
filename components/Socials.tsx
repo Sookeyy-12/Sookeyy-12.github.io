@@ -84,11 +84,11 @@ const reviews = [
         redirectTo: "https://github.com/sookeyy-12/",
     },
     {
-        name: "Instagram",
-        username: "@so.okeyy",
-        body: "Follow me on Instagram for some 'occasional' cool stories!",
-        img: "/instalogo-nobg.png",
-        redirectTo: "https://www.instagram.com/so.okeyy/",
+        name: "LeetCode",
+        username: "@Sookeyy",
+        body: "If you are wondering how good I am at DSA, check out my LeetCode profile!",
+        img: "/leetcode.png",
+        redirectTo: "https://leetcode.com/u/Sookeyy/",
     },
     {
         name: "Twitter (X)",
@@ -110,6 +110,13 @@ const reviews = [
         body: "Follow me on Spotify for some cool playlists, let's vibe together!",
         img: "/spotify.webp",
         redirectTo: "https://open.spotify.com/user/332iryw17kyow0tkfqi9tv0z7?si=7053f8188d8547e3",
+    },
+    {
+        name: "CodeForces",
+        username: "@Sookeyy (max specialist)",
+        body: "For the fellow Competitive programmers out there! Check out my CodeForces profile!",
+        img: "/codeforces.png",
+        redirectTo: "https://codeforces.com/profile/Sookeyy",
     },
 ];
 

@@ -1,4 +1,5 @@
 import { HoverEffect } from "./ui/card-hover-effect";
+import { IconBrandGithub, IconLink } from "@tabler/icons-react";
 
 export function Projects() {
     return (
@@ -6,8 +7,100 @@ export function Projects() {
             <div className="flex justify-center items-center w-full text-3xl mt-5 font-bold">
                 <h1>Some of my Projects</h1>
             </div>
-            <div className="max-w-5xl mx-auto px-8">
+            {/* <div className="max-w-5xl mx-auto px-8">
                 <HoverEffect items={projects} />
+            </div> */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-[5rem]">
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/Neural.gif"
+                            alt="Neural Nitro Demo gif" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Neural Nitro AI</h2>
+                        <p>A Deep Reinforcement Learning AI Agent trained on custom Unity 3D race environment capable of beating you in the circuit.</p>
+                        <div className="card-actions justify-end">
+                            <a href="https://github.com/Sookeyy-12/FlappyBird-Unity-MLAgents"><button className="btn btn-white"><IconLink /></button></a>
+                            <button className="btn btn-white"><IconBrandGithub /></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/Flappy.gif"
+                            alt="Flappy Bird AI Demo gif" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Flappy Bird AI</h2>
+                        <p>A Deep Reinforcement Learning AI Agent trained on custom built Flappy Bird game using Unity3D and ML-Agents. Up for a 1v1? xD</p>
+                        <div className="card-actions justify-end">
+                            {/* <button className="btn btn-white"><IconLink /></button> */}
+                            <button className="btn btn-white"><IconBrandGithub /></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/antispoof.png"
+                            alt="Antispoofing with face recog demo image" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Face Recognition w/ AntiSpoofing</h2>
+                        <p>Developed a DL model which can accurately identify a person and distinguish between a real face and a spoofing attempt in real time.</p>
+                        <div className="card-actions justify-end">
+                            {/* <button className="btn btn-white"><IconLink /></button> */}
+                            <a href="https://github.com/Sookeyy-12/AntiSpoofing" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/matheq.gif"
+                            alt="Hand written equation solver demo" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Handwritten Equation Solver</h2>
+                        <p>Write any linear equation to the AI and it will solve it in matter of seconds!</p>
+                        <div className="card-actions justify-end">
+                            {/* <button className="btn btn-white"><IconLink /></button> */}
+                            <button className="btn btn-white"><IconBrandGithub /></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/chatobot.png"
+                            alt="next js gemini chatbot" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">NextJS-Gemini Chatbot</h2>
+                        <p>An insanely fast Chatbot capable of searching the internet to deliver accurate data, made using Vercel AI SDK 4.0 and NextJS</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-white"><IconLink /></button>
+                            <a href="https://nextjs-sookeyy.vercel.app/" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card lg:card-side bg-black shadow-xl border-2">
+                    <figure>
+                        <img
+                            src="/projects/github-bg.jpeg"
+                            alt="github background" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Github</h2>
+                        <p>Checkout my Github for more Amazing projects!</p>
+                        <div className="card-actions justify-end">
+                            {/* <button className="btn btn-white"><IconLink /></button> */}
+                            <button className="btn btn-white"><IconBrandGithub /><a href="https://github.com/Sookeyy-12/" target="_blank">Sookeyy-12</a></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
