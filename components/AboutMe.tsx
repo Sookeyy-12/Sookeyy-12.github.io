@@ -9,14 +9,14 @@ export function AboutMe() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-5">
                     <CardSpotlight
-                        colors={[[164, 22, 35], [248, 94, 0]]}
+                        colorss={[[164, 22, 35], [248, 94, 0]]}
                         className="m-1 h-[25rem]"
-                        title={
+                        titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
                                 $ whoami
                             </div>
                         }
-                        content={
+                        contentt={
                             <div>
                                 <div className="text-xl font-bold relative z-20 mt-2 text-white">
                                     $ whoami
@@ -37,14 +37,14 @@ export function AboutMe() {
                         }
                     />
                     <CardSpotlight
-                        colors={[[126, 46, 132], [209, 64, 129]]}
+                        colorss={[[126, 46, 132], [209, 64, 129]]}
                         className="m-1 h-[25rem]"
-                        title={
+                        titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
                                 $ whatdoido
                             </div>
                         }
-                        content={
+                        contentt={
                             <div>
                                 <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
                                     $ whatdoido
@@ -62,14 +62,14 @@ export function AboutMe() {
                         }
                     />
                     <CardSpotlight
-                        colors={[[0, 191, 178], [26, 94, 99]]}
+                        colorss={[[0, 191, 178], [26, 94, 99]]}
                         className="m-1 h-[25rem]"
-                        title={
+                        titlee={
                             <div className="text-xl font-bold relative z-20 mt-2 text-white">
                                 $ beyondcode
                             </div>
                         }
-                        content={
+                        contentt={
                             <div>
                                 <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
                                     $ beyondcode

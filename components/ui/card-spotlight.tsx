@@ -7,19 +7,20 @@ import { cn } from "@/lib/utils";
 
 export const CardSpotlight = ({
     children,
-    title,
-    content,
+    titlee,
+    contentt,
     radius = 350,
     color = "#262626",
     className,
+    colorss,
     ...props
 }: {
-    title?: React.ReactNode;
-    content?: React.ReactNode;
+    titlee?: React.ReactNode;
+    contentt?: React.ReactNode;
     radius?: number;
     color?: string;
-    children: React.ReactNode;
-    colors?: [number, number, number][];
+    children?: React.ReactNode;
+    colorss?: [number, number, number][];
 } & React.HTMLAttributes<HTMLDivElement>) => {
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
@@ -70,10 +71,7 @@ export const CardSpotlight = ({
                     <CanvasRevealEffect
                         animationSpeed={5}
                         containerClassName="bg-transparent absolute inset-0 pointer-events-none"
-                        colors={props.colors || [
-                            [0, 0, 0],
-                            [256, 256, 256],
-                        ]}
+                        colors={colorss}
                         dotSize={3}
                     />
                 )}
@@ -81,10 +79,10 @@ export const CardSpotlight = ({
             {children}
             <div className="relative z-20 flex items-center justify-center h-full">
                 <div className="absolute text-center group-hover/spotlight:-translate-y-4 group-hover/spotlight:opacity-0 transition duration-200">
-                    {title}
+                    {titlee}
                 </div>
                 <div className="dark:text-white opacity-0 group-hover/spotlight:opacity-100 relative z-10 text-black mt-4 group-hover/spotlight:text-white group-hover/spotlight:-translate-y-2 transition duration-200">
-                    {content}
+                    {contentt}
                 </div>
             </div>
 
