@@ -5,6 +5,7 @@ import NavBar from "@/components/NavBar";
 import { Projects } from "@/components/Projects";
 import { Socials } from "@/components/Socials";
 import { ScrollProgress } from "@/components/ProgressBar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,14 +19,17 @@ export default function Home() {
         <div id="aboutme">
           <AboutMe />
         </div>
-        <div id="projects">
+        {/* <div id="projects">
           <Projects />
         </div>
         <div id="achievements">
           <Achievements />
-        </div>
+        </div> */}
         <div id="socials">
           <Socials />
+        </div>
+        <div id="footer">
+          <Footer />
         </div>
       </div>
     </>

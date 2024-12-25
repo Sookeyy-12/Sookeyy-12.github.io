@@ -21,6 +21,7 @@ export default {
     },
   },
   plugins: [
+    require('daisyui'),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
