@@ -21,8 +21,8 @@ export function Projects() {
                         <h2 className="card-title">Neural Nitro AI</h2>
                         <p>A Deep Reinforcement Learning AI Agent trained on custom Unity 3D race environment capable of beating you in the circuit.</p>
                         <div className="card-actions justify-end">
-                            <a href="https://github.com/Sookeyy-12/FlappyBird-Unity-MLAgents"><button className="btn btn-white"><IconLink /></button></a>
-                            <button className="btn btn-white"><IconBrandGithub /></button>
+                            <a href="https://sookeyy.itch.io/neuralnitro" target="_blank"><button className="btn btn-white"><IconLink /></button></a>
+                            <a href="https://github.com/Sookeyy-12/NeuralNitro-AI" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export function Projects() {
                         <p>A Deep Reinforcement Learning AI Agent trained on custom built Flappy Bird game using Unity3D and ML-Agents. Up for a 1v1? xD</p>
                         <div className="card-actions justify-end">
                             {/* <button className="btn btn-white"><IconLink /></button> */}
-                            <button className="btn btn-white"><IconBrandGithub /></button>
+                            <a href="https://github.com/Sookeyy-12/FlappyBird-Unity-MLAgents" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export function Projects() {
                         <p>Write any linear equation to the AI and it will solve it in matter of seconds!</p>
                         <div className="card-actions justify-end">
                             {/* <button className="btn btn-white"><IconLink /></button> */}
-                            <button className="btn btn-white"><IconBrandGithub /></button>
+                            <a href="https://github.com/Sookeyy-12/Handwritten-Eqn-Solver" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,8 @@ export function Projects() {
                         <h2 className="card-title">NextJS-Gemini Chatbot</h2>
                         <p>An insanely fast Chatbot capable of searching the internet to deliver accurate data, made using Vercel AI SDK 4.0 and NextJS</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-white"><IconLink /></button>
-                            <a href="https://nextjs-sookeyy.vercel.app/" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
+                            <a href="https://nextjs-sookeyy.vercel.app/" target="_blank"><button className="btn btn-white"><IconLink /></button></a>
+                            <a href="https://github.com/Sookeyy-12/NextJS-ChatBot" target="_blank"><button className="btn btn-white"><IconBrandGithub /></button></a>
                         </div>
                     </div>
                 </div>
