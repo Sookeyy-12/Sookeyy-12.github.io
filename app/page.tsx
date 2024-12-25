@@ -6,6 +6,7 @@ import { Projects } from "@/components/Projects";
 import { Socials } from "@/components/Socials";
 import { ScrollProgress } from "@/components/ProgressBar";
 import Footer from "@/components/Footer";
+import { TechStack } from "@/components/TechStack";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
         </div>
         <div id="projects">
           <Projects />
+        </div>
+        <div id="techstack">
+          <TechStack />
         </div>
         {/* <div id="achievements">
           <Achievements />
