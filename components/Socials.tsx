@@ -70,13 +70,6 @@ const ReviewCard = ({
 
 const reviews = [
     {
-        name: "Instagram",
-        username: "@so.okeyy",
-        body: "Follow me on Instagram for some 'occasional' cool stories!",
-        img: "/instalogo-nobg.png",
-        redirectTo: "https://www.instagram.com/so.okeyy/",
-    },
-    {
         name: "LinkedIn",
         username: "@SuketKamboj",
         body: "Connect with me on LinkedIn for professional networking!",
@@ -91,11 +84,25 @@ const reviews = [
         redirectTo: "https://github.com/sookeyy-12/",
     },
     {
+        name: "Instagram",
+        username: "@so.okeyy",
+        body: "Follow me on Instagram for some 'occasional' cool stories!",
+        img: "/instalogo-nobg.png",
+        redirectTo: "https://www.instagram.com/so.okeyy/",
+    },
+    {
         name: "Twitter (X)",
         username: "@SookeyyK",
         body: "Follow me on Twitter for some cool tweets and birbing!",
         img: "/x.png",
         redirectTo: "https://x.com/SookeyyK",
+    },
+    {
+        name: "Instagram",
+        username: "@so.okeyy",
+        body: "Follow me on Instagram for some 'occasional' cool stories!",
+        img: "/instalogo-nobg.png",
+        redirectTo: "https://www.instagram.com/so.okeyy/",
     },
     {
         name: "Spotify",
