@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable prefer-const */
+
 "use client";
 
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";

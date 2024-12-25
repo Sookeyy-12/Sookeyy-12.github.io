@@ -1,3 +1,5 @@
+/* eslint-disable prefer-const */
+
 "use client";
 /**
  * Note: Use position fixed according to your needs
