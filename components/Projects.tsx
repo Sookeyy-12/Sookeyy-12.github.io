@@ -9,7 +9,7 @@ export function Projects() {
             {/* <div className="max-w-5xl mx-auto px-8">
                 <HoverEffect items={projects} />
             </div> */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-[5rem]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-[1rem] md:p-[5rem]">
                 <div className="card lg:card-side bg-black shadow-xl border-2">
                     <figure>
                         <img
@@ -28,7 +28,7 @@ export function Projects() {
                 <div className="card lg:card-side bg-black shadow-xl border-2">
                     <figure>
                         <img
-                            src="/projects/Flappy.gif"
+                            src="/projects/flappy.gif"
                             alt="Flappy Bird AI Demo gif" />
                     </figure>
                     <div className="card-body">

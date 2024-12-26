@@ -31,18 +31,18 @@ const items = [
     {
         title: "Technical Head @GeeksForGeeks KIIT Chapter",
         description: "Led a Society of 200+ members and co-ordinated 20+ Projects annd 5+ Events.",
-        header: <Skeleton imagePath="/gfg.jpeg" />,
+        header: <Skeleton imagePath="/ach/gfg.jpeg" />,
         // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     },
     {
         title: "President @CyberVault",
         description: "Led a dedicated Cybersecurity Society, organized 5+ Workshops and 3+ CTFs.",
-        header: <Skeleton imagePath="/cybervault.jpg" />,
+        header: <Skeleton imagePath="/ach/cybervault.jpg" />,
     },
     {
         title: "ML Team Member at various other societies",
         description: "Conducted classes and events to spread the knowledge of Machine Learning.",
-        header: <Skeleton imagePath="/iot.jpeg" />,
+        header: <Skeleton imagePath="/ach/iot.jpeg" />,
     },
     {
         title: "LeetCode Stats?",
