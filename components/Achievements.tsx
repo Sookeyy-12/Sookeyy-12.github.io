@@ -7,7 +7,7 @@ export function Achievements() {
             <div className="flex justify-center items-center w-full text-3xl mb-5 font-bold">
                 <h1>Some extra stuff</h1>
             </div>
-            <BentoGrid className="max-w-4xl mx-auto">
+            <BentoGrid className="max-w-5xl mx-auto">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}

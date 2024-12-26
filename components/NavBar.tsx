@@ -49,7 +49,7 @@ function NavBar() {
         <div className="fixed flex justify-center w-full z-50">
             <FloatingDock
                 desktopClassName='fixed bottom-0 m-3'
-                mobileClassName="fixed top-1/2 transform -translate-y-1/2 right-4" 
+                mobileClassName="fixed top-1/2 transform -translate-y-[-1rem] right-4" 
                 items={links}
             />
         </div>
