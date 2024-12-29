@@ -25,7 +25,7 @@ export function AboutMe() {
                                     Hey There! I am Suket Kamboj
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    A 20-year-old wanna-be Software Engineer from India.
+                                    A 21-year-old wanna-be Software Engineer from India.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
                                     I&apos;m passionate about building impactful products through software development.
