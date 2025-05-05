@@ -29,6 +29,12 @@ const Skeleton = ({ imagePath }: { imagePath: string }) => (
 
 const items = [
     {
+        title: "Software Developer Intern @Bank of New York Mellon",
+        description: "Joining as a Software Developer Intern in May of 2025.",
+        header: <Skeleton imagePath="/ach/BNY.jpg" />,
+        // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    },
+    {
         title: "Technical Head @GeeksForGeeks KIIT Chapter",
         description: "Led a Society of 200+ members and co-ordinated 20+ Projects annd 5+ Events.",
         header: <Skeleton imagePath="/ach/gfg.jpeg" />,
@@ -40,14 +46,15 @@ const items = [
         header: <Skeleton imagePath="/ach/cybervault.jpg" />,
     },
     {
-        title: "ML Team Member at various other societies",
-        description: "Conducted classes and events to spread the knowledge of Machine Learning.",
-        header: <Skeleton imagePath="/ach/iot.jpeg" />,
-    },
-    {
         title: "LeetCode Stats?",
         description: "Solved 500+ problems.",
         header: <Skeleton imagePath="/ach/lc.png" />,
+    },
+
+    {
+        title: "ML Team Member at various other societies",
+        description: "Conducted classes and events to spread the knowledge of Machine Learning.",
+        header: <Skeleton imagePath="/ach/iot.jpeg" />,
     },
     {
         title: "Specialist on CodeForces",
@@ -55,11 +62,11 @@ const items = [
             "Solved 250+ problems on CodeForces and participated in 30+ contests.",
         header: <Skeleton imagePath="/ach/cf.png" />,
     },
-    {
-        title: "Hey There",
-        description: "If you are reading this then it probably means, you are interested in my work. Thanks for stopping by!",
-        header: <Skeleton imagePath="/ach/stop.jpg" />,
-    },
+    //{
+    //    title: "Hey There",
+    //    description: "If you are reading this then it probably means, you are interested in my work. Thanks for stopping by!",
+    //    header: <Skeleton imagePath="/ach/stop.jpg" />,
+    //},
     {
         title: "OpenSource cuz its fun",
         description: "Contributed to Big Open Source Orgs like HuggingFace, DagsHub, illa Cloud and more!",
