@@ -47,7 +47,7 @@ const items = [
     },
     {
         title: "LeetCode Stats?",
-        description: "Solved 500+ problems.",
+        description: "Solved 600+ problems and achieved 1700+ rating on LeetCode.",
         header: <Skeleton imagePath="/ach/lc.png" />,
     },
 
@@ -57,9 +57,9 @@ const items = [
         header: <Skeleton imagePath="/ach/iot.jpeg" />,
     },
     {
-        title: "Specialist on CodeForces",
+        title: "Specialist (1482) on CodeForces",
         description:
-            "Solved 250+ problems on CodeForces and participated in 30+ contests.",
+            "Solved 350+ problems on CodeForces and participated in 40+ contests.",
         header: <Skeleton imagePath="/ach/cf.png" />,
     },
     //{

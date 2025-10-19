@@ -31,7 +31,7 @@ export function AboutMe() {
                                     I&apos;m passionate about building impactful products through software development.
                                 </p>
                                 <p className="text-neutral-200 mt-4 relative z-20">
-                                    Currently looking for Summer Internship Opportunities for 2025.
+                                    Currently looking for Winter Intern opportunities (2026).
                                 </p>
                             </div>
                         }

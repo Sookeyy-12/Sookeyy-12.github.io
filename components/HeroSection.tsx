@@ -33,7 +33,7 @@ export function HeroSection() {
                   Aspiring Software Engineer based in India, with a passion for building innovative solutions and a knack for problem-solving.
                 </p></div>
                 <div><button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
-                    <a href="https://drive.google.com/file/d/15uDkPsca4tweCQIoH0sC-9IDhT3RTGG0/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="https://drive.google.com/file/d/1IFlzwbXk68FLagJm_QsG3c3ffxbTVsRc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                 </button>
                 </div>
                 </div>
